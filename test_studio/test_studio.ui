@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>test_studioClass</class>
+ <widget class="QMainWindow" name="test_studioClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>test_studio</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widget_7" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget_6" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="leftMargin">
+           <number>10</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>10</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCustomPlot" name="customPlot" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>360</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTableWidget" name="tableWidget"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QWidget" name="widget_5" native="true">
+         <property name="maximumSize">
+          <size>
+           <width>332</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>10</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="widget_4" native="true">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>510</height>
+             </size>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QTabWidget" name="tabWidget">
+               <property name="minimumSize">
+                <size>
+                 <width>324</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>328</width>
+                 <height>507</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="tab">
+                <attribute name="title">
+                 <string>样品1</string>
+                </attribute>
+                <widget class="QLabel" name="label_36">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_71">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_72">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_73">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_37">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_38">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_74">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_75">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_76">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_77">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_77</zorder>
+                <zorder>label_36</zorder>
+                <zorder>tableView_71</zorder>
+                <zorder>label_37</zorder>
+                <zorder>label_38</zorder>
+                <zorder>tableView_74</zorder>
+                <zorder>tableView_75</zorder>
+                <zorder>tableView_76</zorder>
+                <zorder>tableView_73</zorder>
+                <zorder>tableView_72</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_2">
+                <attribute name="title">
+                 <string>样品2</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_8">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_10">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_11">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_13">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_10">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_11">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_14">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_8</zorder>
+                <zorder>tableView_9</zorder>
+                <zorder>label_9</zorder>
+                <zorder>tableView_11</zorder>
+                <zorder>tableView_12</zorder>
+                <zorder>tableView_13</zorder>
+                <zorder>label_10</zorder>
+                <zorder>label_11</zorder>
+                <zorder>tableView_14</zorder>
+                <zorder>tableView_10</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_3">
+                <attribute name="title">
+                 <string>样品3</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_15">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_16">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_17">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_18">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_19">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_20">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_13">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_14">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_21">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_15</zorder>
+                <zorder>tableView_16</zorder>
+                <zorder>label_12</zorder>
+                <zorder>tableView_18</zorder>
+                <zorder>tableView_19</zorder>
+                <zorder>tableView_20</zorder>
+                <zorder>label_13</zorder>
+                <zorder>label_14</zorder>
+                <zorder>tableView_21</zorder>
+                <zorder>tableView_17</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_4">
+                <attribute name="title">
+                 <string>样品4</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_22">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_23">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_15">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_24">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_25">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_26">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_27">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_16">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_17">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_28">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_22</zorder>
+                <zorder>tableView_23</zorder>
+                <zorder>label_15</zorder>
+                <zorder>tableView_25</zorder>
+                <zorder>tableView_26</zorder>
+                <zorder>tableView_27</zorder>
+                <zorder>label_16</zorder>
+                <zorder>label_17</zorder>
+                <zorder>tableView_28</zorder>
+                <zorder>tableView_24</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_5">
+                <attribute name="title">
+                 <string>样品5</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_29">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_30">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_18">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_31">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_32">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_33">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_34">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_19">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_20">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_35">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_29</zorder>
+                <zorder>tableView_30</zorder>
+                <zorder>label_18</zorder>
+                <zorder>tableView_32</zorder>
+                <zorder>tableView_33</zorder>
+                <zorder>tableView_34</zorder>
+                <zorder>label_19</zorder>
+                <zorder>label_20</zorder>
+                <zorder>tableView_35</zorder>
+                <zorder>tableView_31</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_6">
+                <attribute name="title">
+                 <string>样品6</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_36">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_37">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_21">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_38">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_39">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_40">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_41">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_22">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_23">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_42">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_36</zorder>
+                <zorder>tableView_37</zorder>
+                <zorder>label_21</zorder>
+                <zorder>tableView_39</zorder>
+                <zorder>tableView_40</zorder>
+                <zorder>tableView_41</zorder>
+                <zorder>label_22</zorder>
+                <zorder>label_23</zorder>
+                <zorder>tableView_42</zorder>
+                <zorder>tableView_38</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_7">
+                <attribute name="title">
+                 <string>样品7</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_43">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_44">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_24">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_45">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_46">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_47">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_48">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_25">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_26">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_49">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_43</zorder>
+                <zorder>tableView_44</zorder>
+                <zorder>label_24</zorder>
+                <zorder>tableView_46</zorder>
+                <zorder>tableView_47</zorder>
+                <zorder>tableView_48</zorder>
+                <zorder>label_25</zorder>
+                <zorder>label_26</zorder>
+                <zorder>tableView_49</zorder>
+                <zorder>tableView_45</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_8">
+                <attribute name="title">
+                 <string>样品8</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_50">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_51">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_27">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_52">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_53">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_54">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_55">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_28">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_29">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_56">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_50</zorder>
+                <zorder>tableView_51</zorder>
+                <zorder>label_27</zorder>
+                <zorder>tableView_53</zorder>
+                <zorder>tableView_54</zorder>
+                <zorder>tableView_55</zorder>
+                <zorder>label_28</zorder>
+                <zorder>label_29</zorder>
+                <zorder>tableView_56</zorder>
+                <zorder>tableView_52</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_9">
+                <attribute name="title">
+                 <string>样品9</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_57">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_58">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_30">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_59">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_60">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_61">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_62">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_31">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_32">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_63">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <zorder>tableView_57</zorder>
+                <zorder>tableView_58</zorder>
+                <zorder>label_30</zorder>
+                <zorder>tableView_60</zorder>
+                <zorder>tableView_61</zorder>
+                <zorder>tableView_62</zorder>
+                <zorder>label_31</zorder>
+                <zorder>label_32</zorder>
+                <zorder>tableView_63</zorder>
+                <zorder>tableView_59</zorder>
+               </widget>
+               <widget class="QWidget" name="tab_10">
+                <attribute name="title">
+                 <string>样品10</string>
+                </attribute>
+                <widget class="QTableView" name="tableView_64">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>336</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_33">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>218</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;测量参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_65">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>408</y>
+                   <width>321</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_34">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>438</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;结果分选&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_35">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>321</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(110,110,110)</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;记录参数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_66">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>143</y>
+                   <width>321</width>
+                   <height>75</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_67">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>20</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_68">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>119</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_69">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>238</y>
+                   <width>321</width>
+                   <height>100</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+ border:rgb(230, 230, 230);
+</string>
+                 </property>
+                </widget>
+                <widget class="QTableView" name="tableView_70">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>458</y>
+                   <width>321</width>
+                   <height>25</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">gridline-color: rgb(230, 230, 230);
+border:rgb(230,230, 230);</string>
+                 </property>
+                </widget>
+                <zorder>label_33</zorder>
+                <zorder>tableView_65</zorder>
+                <zorder>label_34</zorder>
+                <zorder>label_35</zorder>
+                <zorder>tableView_66</zorder>
+                <zorder>tableView_68</zorder>
+                <zorder>tableView_70</zorder>
+                <zorder>tableView_67</zorder>
+                <zorder>tableView_64</zorder>
+                <zorder>tableView_69</zorder>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_3" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QWidget" name="widget_2" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>4</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <property name="spacing">
+                 <number>6</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>200</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(155,155,155)</string>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;color:white;&quot;&gt;79.6 A/m&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget" native="true">
+                  <layout class="QHBoxLayout" name="horizontalLayout">
+                   <property name="spacing">
+                    <number>6</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>50</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Andalus</family>
+                       <weight>50</weight>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="autoFillBackground">
+                      <bool>false</bool>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(51,153,255);
+color: rgb(255, 255, 255)</string>
+                     </property>
+                     <property name="text">
+                      <string>开始
+测试</string>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>22</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>50</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <weight>50</weight>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(51,153,255);
+color: rgb(255, 255, 255)</string>
+                     </property>
+                     <property name="text">
+                      <string>停止
+测试</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_4">
+                     <property name="minimumSize">
+                      <size>
+                       <width>50</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <weight>50</weight>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(51,153,255);
+color: rgb(255, 255, 255)</string>
+                     </property>
+                     <property name="text">
+                      <string>导出
+报告</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton">
+                     <property name="minimumSize">
+                      <size>
+                       <width>50</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <weight>50</weight>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(51,153,255);
+color: rgb(255, 255, 255)</string>
+                     </property>
+                     <property name="text">
+                      <string>导出
+数据</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>10</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_8" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="pushButton_save_programme">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>保存方案</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label">
+                  <property name="minimumSize">
+                   <size>
+                    <width>1</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>1</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>a</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>0</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1350</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menumeasure">
+    <property name="title">
+     <string>测量(Measure)</string>
+    </property>
+    <addaction name="actionmeasure"/>
+   </widget>
+   <widget class="QMenu" name="menubrowse">
+    <property name="title">
+     <string>数据(Date)</string>
+    </property>
+    <addaction name="actiondata_history"/>
+    <addaction name="actiondate_clear"/>
+    <addaction name="separator"/>
+    <addaction name="actiondate_exportsingle"/>
+    <addaction name="actiondate_exportcomposite"/>
+   </widget>
+   <widget class="QMenu" name="menu_X">
+    <property name="title">
+     <string>设置(Setting)</string>
+    </property>
+    <addaction name="actionsettting_option"/>
+   </widget>
+   <widget class="QMenu" name="menuCOM1_v">
+    <property name="title">
+     <string>测试(Test)</string>
+    </property>
+    <addaction name="start_test"/>
+    <addaction name="actioncontinuetest"/>
+    <addaction name="separator"/>
+    <addaction name="actiondebugmode"/>
+   </widget>
+   <widget class="QMenu" name="menu_Z">
+    <property name="title">
+     <string>帮助(Help)</string>
+    </property>
+    <addaction name="actionhelp_website"/>
+    <addaction name="actionheplp_calculator"/>
+    <addaction name="actionhelp_register"/>
+    <addaction name="actionhelp_about"/>
+   </widget>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actioncreat"/>
+    <addaction name="actionopen_2"/>
+    <addaction name="actionstatics"/>
+    <addaction name="actionsaveas"/>
+   </widget>
+   <widget class="QMenu" name="menuprint">
+    <property name="geometry">
+     <rect>
+      <x>658</x>
+      <y>127</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>打印</string>
+    </property>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menubrowse"/>
+   <addaction name="menumeasure"/>
+   <addaction name="menu_X"/>
+   <addaction name="menuCOM1_v"/>
+   <addaction name="menuprint"/>
+   <addaction name="menu_Z"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionget_device_param">
+   <property name="text">
+    <string>得到设备参数(Y)</string>
+   </property>
+  </action>
+  <action name="actionsave_device_param">
+   <property name="text">
+    <string>保存设备参数(Z)</string>
+   </property>
+  </action>
+  <action name="actionCOM1">
+   <property name="text">
+    <string>COM1</string>
+   </property>
+  </action>
+  <action name="actionCOM2">
+   <property name="text">
+    <string>COM2</string>
+   </property>
+  </action>
+  <action name="actionCOM3">
+   <property name="text">
+    <string>COM3</string>
+   </property>
+  </action>
+  <action name="actionCOM4">
+   <property name="text">
+    <string>COM4</string>
+   </property>
+  </action>
+  <action name="actionCOM5">
+   <property name="text">
+    <string>COM5</string>
+   </property>
+  </action>
+  <action name="actionCOM6">
+   <property name="text">
+    <string>COM6</string>
+   </property>
+  </action>
+  <action name="actionCOM7">
+   <property name="text">
+    <string>COM7</string>
+   </property>
+  </action>
+  <action name="start_test">
+   <property name="text">
+    <string>开始测试(StartTest)</string>
+   </property>
+   <property name="iconText">
+    <string>开始测试(StartTest)</string>
+   </property>
+  </action>
+  <action name="actionhelp">
+   <property name="text">
+    <string>版本1.0.1(1)</string>
+   </property>
+  </action>
+  <action name="actionmeasure">
+   <property name="text">
+    <string>编辑测量方案(PlanManage)</string>
+   </property>
+  </action>
+  <action name="actionopen">
+   <property name="text">
+    <string>打开(X)</string>
+   </property>
+  </action>
+  <action name="actionfile_save">
+   <property name="text">
+    <string>保存(Y)</string>
+   </property>
+  </action>
+  <action name="actionfile_print">
+   <property name="text">
+    <string>打印(Z)</string>
+   </property>
+  </action>
+  <action name="actionbrowse_find">
+   <property name="text">
+    <string>查询(Z)</string>
+   </property>
+  </action>
+  <action name="actioncontinuetest">
+   <property name="text">
+    <string>继续测试(ContinueTest)</string>
+   </property>
+  </action>
+  <action name="actiondebugmode">
+   <property name="text">
+    <string>调试模式(DebugMode)</string>
+   </property>
+  </action>
+  <action name="actionsettting_option">
+   <property name="text">
+    <string>选项(Option)</string>
+   </property>
+  </action>
+  <action name="actiondata_history">
+   <property name="text">
+    <string>历史数据查询(History)</string>
+   </property>
+   <property name="iconText">
+    <string>历史数据查询(History)</string>
+   </property>
+   <property name="toolTip">
+    <string>历史数据查询(History)</string>
+   </property>
+  </action>
+  <action name="actiondate_clear">
+   <property name="text">
+    <string>清空界面数据(Clear)</string>
+   </property>
+  </action>
+  <action name="actiondate_exportsingle">
+   <property name="text">
+    <string>导出当前单个数据(ExportSingle)</string>
+   </property>
+  </action>
+  <action name="actiondate_exportcomposite">
+   <property name="text">
+    <string>导出组合数据(ExportComposite)</string>
+   </property>
+  </action>
+  <action name="actionhelp_website">
+   <property name="text">
+    <string>访问官网(Website)</string>
+   </property>
+  </action>
+  <action name="actionheplp_calculator">
+   <property name="text">
+    <string>计算机(Calculator)</string>
+   </property>
+  </action>
+  <action name="actionhelp_register">
+   <property name="text">
+    <string>注册(Register)</string>
+   </property>
+  </action>
+  <action name="actionhelp_about">
+   <property name="text">
+    <string>关于(About)</string>
+   </property>
+  </action>
+  <action name="actioncreat">
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="actionopen_2">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionstatics">
+   <property name="text">
+    <string>统计</string>
+   </property>
+  </action>
+  <action name="actionsaveas">
+   <property name="text">
+    <string>另存</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="test_studio.qrc"/>
+ </resources>
+ <connections/>
+</ui>

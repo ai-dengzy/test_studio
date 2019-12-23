@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/test_studio">
+        <file>Resources/linkjoin_icon.jpg</file>
+    </qresource>
+</RCC>
